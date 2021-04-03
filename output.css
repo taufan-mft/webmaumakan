@@ -12,6 +12,22 @@
   font-family: "Urbanist";
   src: url("urbanregular.woff") format("woff2");
 }
+.mwhite {
+  color: #ffffff;
+}
+
+.mocre {
+  color: #BA5A31;
+}
+
+.mblack {
+  color: #0C0C0C;
+}
+
+.mgreen {
+  color: #69DC9E;
+}
+
 .raisa {
   background-image: url("https://images.unsplash.com/photo-1558689509-900d3d3cc727?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
   min-height: 550px;
@@ -64,12 +80,56 @@
   text-align: center;
   margin-top: 10px;
 }
+#mainhead .col-sm h1 {
+  color: #0C0C0C;
+  font-weight: bold;
+}
 #mainhead h2 {
   color: #0C0C0C;
   font-weight: 600;
 }
 #mainhead p {
   font-size: 1.3em;
+}
+
+.section2 {
+  background-color: #E59F71;
+  min-height: 400px;
+}
+.section2 h1 {
+  color: white;
+  font-weight: bold;
+}
+.section2 p {
+  color: white;
+  font-size: 1.3em;
+}
+
+.section3 h1 {
+  font-weight: bold;
+  color: #0C0C0C;
+}
+.section3 p {
+  font-size: 1.3em;
+  color: #0C0C0C;
+}
+
+.section4 {
+  background-color: #69DC9E;
+}
+.section4 h1 {
+  font-weight: bold;
+  color: #ffffff;
+  padding: 4px;
+}
+.section4 p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3em;
+}
+.section4 span {
+  font-weight: bold;
+  font-size: 4em;
 }
 
 @keyframes bounce {

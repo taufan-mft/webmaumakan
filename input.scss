@@ -5,6 +5,7 @@ $specblack: #0C0C0C;
 $green: #69DC9E;
 $white: #ffffff;
 $semibold: 600;
+$sizeP: 1.3em;
 
 @font-face {
     font-family: 'Urbanist';
@@ -20,6 +21,19 @@ $semibold: 600;
     font-family: 'Urbanist';
     src:  url('urbanregular.woff') format('woff2');
   }
+  .mwhite {
+    color: $white;
+  }
+
+.mocre {
+  color:$ocre;
+}
+.mblack {
+  color: $specblack;
+}
+.mgreen {
+  color: $green;
+}
   .raisa {
       background-image:  url('https://images.unsplash.com/photo-1558689509-900d3d3cc727?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80');
    min-height: 550px;
@@ -62,12 +76,19 @@ $semibold: 600;
       border-radius: 8px;
   }
 
+
   #mainhead {
       h1 {
           color: $pink;
           font-weight: bold;
           text-align: center;
           margin-top:10px;
+      }
+      .col-sm {
+        h1 {
+          color: $specblack;
+          font-weight: bold;
+        }
       }
       h2 {
           color: $specblack;
@@ -78,6 +99,47 @@ $semibold: 600;
       }
   }
 
+  .section2 {
+    background-color: $pink;
+    min-height: 400px;
+    h1{
+      color: white;
+      font-weight: bold;
+    }
+    p {
+      color: white;
+      font-size: $sizeP;
+    }
+  }
+
+  .section3 {
+    h1 {
+      font-weight: bold;
+      color: $specblack;
+    }
+    p {
+      font-size: $sizeP;
+      color: $specblack;
+    }
+  }
+
+  .section4 {
+    background-color: $green;
+    h1 {
+      font-weight: bold;
+      color: $white;
+      padding: 4px;
+    }
+    p {
+      color: $white;
+      text-align: center;
+      font-size: $sizeP;
+    }
+    span {
+      font-weight: bold;
+      font-size: 4em;
+    }
+  }
   
 
   @keyframes bounce {
