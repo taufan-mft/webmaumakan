@@ -145,11 +145,13 @@
   padding: 4px;
   text-align: center;
 }
+.sectionhelp .container {
+  padding-bottom: 100px;
+}
 .sectionhelp p {
   text-align: center;
   color: #0C0C0C;
   font-size: 1.3em;
-  margin-bottom: 150px;
 }
 
 .warna-wa {

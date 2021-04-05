@@ -154,11 +154,14 @@ $sizeP: 1.3em;
       padding: 4px;
       text-align: center;
     }
+    .container {
+      padding-bottom: 100px;
+    }
     p {
       text-align: center;
       color: $specblack;
       font-size: $sizeP;
-      margin-bottom: 150px;
+      
     }
   }
 
