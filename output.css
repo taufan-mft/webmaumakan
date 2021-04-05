@@ -137,7 +137,7 @@
   background-position: bottom;
   background-size: 100% 100px;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 300px;
 }
 .sectionhelp h1 {
   font-weight: bold;
@@ -145,11 +145,27 @@
   padding: 4px;
   text-align: center;
 }
+.sectionhelp p {
+  text-align: center;
+  color: #0C0C0C;
+  font-size: 1.3em;
+}
+
+.warna-wa {
+  color: #ffffff;
+  background-color: #67C857;
+  border-color: transparent;
+}
+
+.warna-pink {
+  color: #ffffff;
+  background-color: #E59F71;
+  border-color: transparent;
+}
 
 .sectionfooter {
   background-color: #BA5A31;
   min-height: 200px;
-  margin-top: 4px;
 }
 .sectionfooter p {
   color: white;

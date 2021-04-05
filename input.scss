@@ -147,19 +147,33 @@ $sizeP: 1.3em;
     background-position: bottom;
     background-size: 100% 100px;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 300px;
     h1 {
       font-weight: bold;
       color: $specblack;
       padding: 4px;
       text-align: center;
     }
+    p {
+      text-align: center;
+      color: $specblack;
+      font-size: $sizeP;
+    }
   }
-  
+
+  .warna-wa {
+    color: $white;
+    background-color: #67C857;
+    border-color: transparent;
+  }
+  .warna-pink {
+    color: $white;
+    background-color: $pink;
+    border-color: transparent;
+  }
   .sectionfooter {
     background-color: $ocre;
     min-height: 200px;
-    margin-top: 4px;
     p {
       color: white;
       margin: 8px;
